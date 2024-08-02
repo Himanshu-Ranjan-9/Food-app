@@ -1,0 +1,145 @@
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pompiere&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,500&family=Roboto&display=swap');
+
+.navbar{
+    background: rgba(9, 9, 9, 0.95);
+    width:100%;
+    height:70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    font-weight: bold;
+    z-index: 1;
+    position: absolute;
+    padding-right: 20px;
+
+    
+}
+.leftside{
+    width:30%;
+}
+.logo{
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.rightside{
+    display: block;
+    width: 70%;
+    display: flex;
+    justify-content: right;
+    gap: 90px;
+}
+.navEliment{
+    font-size: 17px;
+    font-family: poppins,Sans-serif;
+    font-weight:501;
+    color: white;
+}
+
+
+.searchBox{
+    font-size: 15px;
+    padding: 4px;
+    border: 0px solid white;
+    border-radius: 15px;
+    border-style:none;
+    
+}
+.searchBtn{
+    margin-left: 10px;
+    padding: 5px 9px;
+    border-style: none;
+    border-radius: 12px;
+    background: white;
+    font-size: 11px;
+}
+.humburger-menu{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: auto;
+    
+    
+}
+.line{
+    width: 20px;
+    background-color: white;
+    height: 1px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.humburger-menu-outer{
+    display: none;
+}
+
+@media (max-width: 1292px) {
+    .leftside-active{
+        width: auto;
+    }
+
+}
+@media (max-width: 1069px) {
+    .rightside{
+        display: none;
+    }
+    .leftside{
+        display: none;
+    }
+    .humburger-menu-outer{
+        display: block;
+    }
+    
+}
+.humburger-menu-outer-1069{
+    display: none;
+
+}
+    .navbar-1069{
+        position: fixed;
+        height:100vh;
+        width: 333px;
+        flex-direction: column;
+        background: rgb(0, 0, 0, 0.93);
+        background-blend-mode:darken;
+        
+    }
+    .leftside-active{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+        
+    }
+    .rightside-1069{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+
+    }
+    
+    .logo-1069{
+        width: 130px;
+        height: 130px;
+        margin-top: 20px;
+        border-radius: 50%;
+    }
+    .navEliment-1069{
+        margin: 24px auto 24px auto;
+        font-size: 40px;
+        font-weight: 200;
+        text-align: center;
+        display: flex;
+        border-bottom: 2px solid red;
+        color: white;
+        flex-direction: column;
+    }
+
+    /* ranjeet2709@gmail.com */
+
+
